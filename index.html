@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Emotion Detection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Smart Emotion Detection</h1>
+        <input type="file" id="imageInput" accept="image/*">
+        <button onclick="uploadImage()">Upload & Detect</button>
+        <p id="status"></p>
+        <img id="preview" src="" alt="Image Preview" style="display: none;">
+        <h2>Detected Emotion: <span id="output">-</span></h2>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
